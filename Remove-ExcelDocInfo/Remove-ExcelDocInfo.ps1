@@ -39,10 +39,10 @@
             $workbook.Save()
 
             $excel.Workbooks.close()
+            $excel.Quit()
         }
     }
 
     end {
-        $excel.Quit()
     }
 }
