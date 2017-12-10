@@ -1,7 +1,7 @@
 ﻿function Remove-ExcelDocInfo {
     <#
     .SYNOPSIS
-        Delete all document information of Excel file(.xls, .xlsm, .xlsx).
+        Delete all document informations of Excel file(.xls, .xlsm, .xlsx).
 
     .DESCRIPTION
 
@@ -28,7 +28,7 @@
         $FileEXCEL_ext = (Get-ChildItem $FileEXCEL).Extension
 
         if ($FileEXCEL_ext -inotmatch "\.xls[mx]?$") {
-            Write-Host $FileEXCEL ": You can convert .xls, .xlsm or .xlsx"
+            Write-Host $FileEXCEL ": You can remove document informations of .xls, .xlsm or .xlsx"
         }
         else {
             $excel = New-Object -COMOBJECT EXCEL.APPLICATION
