@@ -6,7 +6,7 @@
     .DESCRIPTION
 
     .EXAMPLE
-        Remove-ExcelDocInfo
+        Remove-ExcelDocInfo input.xlsx
 
     .EXAMPLE
         (Get-ChildItem *xlsx) | Remove-ExcelDocInfo

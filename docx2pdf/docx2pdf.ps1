@@ -7,7 +7,7 @@ function docx2pdf {
         Convert from .docx to .pdf
 
     .EXAMPLE
-        docx2pdf input.pdf
+        docx2pdf input.docx
 
     .EXAMPLE
         (Get-ChildItem *docx) | docx2pdf
